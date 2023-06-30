@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "storybook dev -p 6006",
-    "build": "storybook build  -c .storybook -o ./dist --docs",
+    "build": "storybook build  -c .storybook -o ./dist",
     "preview-storybook": "serve dist",
     "clean": "rm -rf .turbo && rm -rf node_modules",
-    "chromatic": "chromatic --exit-zero-on-changes"
+    "chromatic": "chromatic --build-script-name build --output-dir dist --exit-zero-on-changes"
   },
   "dependencies": {
     "@acme/ui": "workspace:*",
