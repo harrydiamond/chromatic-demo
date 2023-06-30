@@ -28,5 +28,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Run Build
+        run: pnpm build
+
       - name: Run Chromatic
         run: pnpm --filter=docs run chromatic --project-token=${{ secrets.CHROMATIC_PROJECT_TOKEN }}
