@@ -13,6 +13,7 @@ const buttonVariants = cva(
         primary: '',
         secondary: 'bg-transparent',
         'secondary-ghost': 'bg-transparent',
+        new: 'bg-blue-400',
       },
       intent: {
         commit: '',

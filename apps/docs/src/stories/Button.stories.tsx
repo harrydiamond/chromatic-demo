@@ -99,3 +99,11 @@ export const ProductSecondaryGhost: Story = {
     },
   },
 };
+
+export const New: Story = {
+  args: {
+    variant: 'new',
+    intent: 'product',
+    children: 'Add to cart',
+  },
+};
