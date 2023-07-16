@@ -34,15 +34,6 @@ export const Disabled: Story = {
   },
 };
 
-export const Loading: Story = {
-  args: {
-    variant: 'primary',
-    intent: 'commit',
-    children: 'Click me',
-    loading: true,
-  },
-};
-
 export const CommitPrimary: Story = {
   args: {
     variant: 'primary',
