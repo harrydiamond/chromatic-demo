@@ -13,7 +13,6 @@ const buttonVariants = cva(
         primary: '',
         secondary: 'bg-transparent',
         'secondary-ghost': 'bg-transparent',
-        new: 'bg-blue-400',
       },
       intent: {
         commit: '',
@@ -100,7 +99,6 @@ export const Button = ({
   children,
   disabled,
   fullWidth = false,
-
   variant,
   intent,
   ...rest
