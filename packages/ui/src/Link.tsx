@@ -16,6 +16,9 @@ const linkVariants = cva('block', {
       green: 'text-green-500',
     },
   },
+  defaultVariants: {
+    size: 'sm',
+  },
 });
 
 export type LinkProps = AnchorHTMLAttributes<HTMLAnchorElement> &
