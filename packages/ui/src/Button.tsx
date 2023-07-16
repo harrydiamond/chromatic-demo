@@ -76,7 +76,7 @@ const buttonVariants = cva(
       {
         intent: 'product',
         variant: 'primary',
-        className: ['bg-primaryYellow', 'fill-text', 'text-text'],
+        className: ['bg-yellow-400', 'fill-text', 'text-text'],
       },
       {
         intent: 'product',
@@ -99,7 +99,6 @@ export const Button = ({
   children,
   disabled,
   fullWidth = false,
-
   variant,
   intent,
   ...rest
